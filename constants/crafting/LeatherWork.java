@@ -80,13 +80,6 @@ public class LeatherWork {
                 best = candidate;
             }
         }
-
-        if (best == null) {
-            api.log("AHHH");
-        } else {
-            api.log("Phew");
-        }
-
         return best;
     }
 
