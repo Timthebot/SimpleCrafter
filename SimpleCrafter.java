@@ -45,7 +45,7 @@ public class SimpleCrafter extends Script {
         if (script.validate()) {
             return script.execute();
         }
-        return 100; //The amount of time in milliseconds before the loop starts over
+        return 600; //The amount of time in milliseconds before the loop starts over
     }
 
 

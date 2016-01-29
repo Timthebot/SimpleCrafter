@@ -24,6 +24,7 @@ public class Sleep extends ConditionalSleep {
 
     @Override
     public boolean condition() throws InterruptedException {
+        // TODO: Make this implement some exponentially growing function...
         this.runTime += 50;
         wait(50);
         double randomNumber = Gaussian.getInstance().getDouble();
