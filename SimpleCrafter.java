@@ -36,7 +36,7 @@ public class SimpleCrafter extends Script {
 
     @Override
     public void onExit() {
-        log("Thank you for using my bot!");
+        log("Thank you for using my script!");
     }
 
 
